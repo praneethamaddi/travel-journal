@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Access from './components/Access';
 import Dashboard from './components/Dashboard';
 import Stories from './components/Stories';
 import Community from './components/Community';
 import Wallets from './components/Wallets';
-import Messages from './components/Messages';
 import Config from './components/Config';
 import ProtectedRoute from './components/ProtectedRoute';
 import Navbar from './components/Navbar';
@@ -16,7 +15,7 @@ function App() {
     return (
         <Router>
             {/* Only show Navbar if user is authenticated */}
-            {isAuthenticated && <Navbar setIsAuthenticated={setIsAuthenticated} />}
+            {isAuthenticated && <Navbar setIsAuthenticated={setIsAuthenticated} />} 
             
             <Routes>
                 {/* Only the Access component is available before logging in */}
@@ -55,14 +54,6 @@ function App() {
                     element={
                         <ProtectedRoute isAuthenticated={isAuthenticated}>
                             <Wallets />
-                        </ProtectedRoute>
-                    } 
-                />
-                <Route 
-                    path="/messages" 
-                    element={
-                        <ProtectedRoute isAuthenticated={isAuthenticated}>
-                            <Messages />
                         </ProtectedRoute>
                     } 
                 />

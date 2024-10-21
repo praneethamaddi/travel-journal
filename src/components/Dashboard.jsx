@@ -70,25 +70,25 @@ const Dashboard = () => {
           <h3>Get to Know Us</h3>
           <ul>
             <li><a href="#">Careers</a></li>
-            <li><a href="#">About Task Manager</a></li>
+            <li><a href="#">About Travel Journal</a></li>
             <li><a href="#">Investor Relations</a></li>
-            <li><a href="#">Task Manager Devices</a></li>
+            <li><a href="#">Travel Journal Devices</a></li>
           </ul>
         </div>
         <div className="footer-column">
           <h3>Make Money with Us</h3>
           <ul>
-            <li><a href="#">Manage on Task Manager</a></li>
-            <li><a href="#">Manage on Task Manager Business</a></li>
-            <li><a href="#">Manage Your Apps on Task Manager</a></li>
+            <li><a href="#">Manage on Travel Journal</a></li>
+            <li><a href="#">Manage on Travel Journal Business</a></li>
+            <li><a href="#">Manage Your Apps on Travel Journal</a></li>
             <li><a href="#">Become an Affiliate</a></li>
           </ul>
         </div>
         <div className="footer-column">
-          <h3>Task Manager Tracks</h3>
+          <h3>Travel Journal Tracks</h3>
           <ul>
-            <li><a href="#">Task Manager Rewards Visa</a></li>
-            <li><a href="#">Task Manager Store Card</a></li>
+            <li><a href="#">Travel Journal Rewards Visa</a></li>
+            <li><a href="#">Travel Journal Store Card</a></li>
             <li><a href="#">Credit Card Marketplace</a></li>
             <li><a href="#">Reload Your Balance</a></li>
           </ul>
@@ -97,13 +97,13 @@ const Dashboard = () => {
           <h3>Let Us Help You</h3>
           <ul>
             <li><a href="#">Your Account</a></li>
-            <li><a href="#">Task Manager Tracks</a></li>
-            <li><a href="#">Task Manager Trip Costs</a></li>
-            <li><a href="#">Task Manager Prime</a></li>
+            <li><a href="#">Travel Journal Tracks</a></li>
+            <li><a href="#">Travel Journal Trip Costs</a></li>
+            <li><a href="#">Travel Journal Prime</a></li>
           </ul>
         </div>
         <div className="footer-bottom">
-          <div>Task Manager &copy; 2024</div>
+          <div>Travel Journal &copy; 2024</div>
         </div>
       </div>
     </div>

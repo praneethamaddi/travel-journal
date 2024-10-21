@@ -1,10 +1,13 @@
 .wallets {
     padding: 20px;
-    color: #333;
+    color: #222; /* Darker text color */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets/4.jpg'); /* Move background image here */
 }
 
 .wallets-header {
@@ -15,7 +18,7 @@
 .wallets-header h1 {
     margin-bottom: 15px;
     font-size: 2.5em; /* Increased font size for emphasis */
-    color: #fff; /* White color for better contrast */
+    color: #6898e0; /* White color for better contrast */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Subtle text shadow */
 }
 
@@ -31,7 +34,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-    background-color: #FFFAF0; /* Light color for input collectors */
+    background-color: #9f9ec5; /* Light color for input collectors */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
@@ -44,11 +47,11 @@
 
 .input-collectors input, 
 .input-collectors select {
-    padding: 12px;
-    border: 1px solid #ccc;
+    padding: 15px; /* Increased padding for larger input fields */
+    border: 1px solid #8682a2;
     border-radius: 5px;
-    width: 150px;
-    transition: border-color 0.3s; /* Smooth transition for border color */
+    width: 250px; /* Increased width for input fields */
+    transition: border-color 0.3s;
 }
 
 .input-collectors input:focus, 
@@ -57,13 +60,13 @@
 }
 
 .input-collectors button {
-    padding: 12px 20px;
-    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient button background */
+    padding: 15px 30px; /* Increased padding for button */
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s; /* Smooth transition for background color */
+    transition: background-color 0.3s;
 }
 
 .input-collectors button:hover {
@@ -114,6 +117,10 @@
 
 .expense-list {
     margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px; /* Added to ensure spacing between items */
 }
 
 .expense-item {
